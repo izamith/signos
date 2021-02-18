@@ -11,12 +11,11 @@ A ml5 tem vários modelos pré-treinados como um classificador de imagens, poses
 O HandPose me ajudou a identificar o que é uma mão, o que são dedos e onde estão esses elementos no vídeo. 
 
 ![Alt Text](https://media.giphy.com/media/UiWilQulmHXeLcnWhT/giphy.gif)</br></br>
-![Alt Text](https://media.giphy.com/media/VEQmZ487UX2VGqyiW7/giphy.gif)
+
 
 Depois, eu treinei minha própria rede neural para identificar posições de dedos e mãos e o que cada uma delas significa.
 
-
-
+![Alt Text](https://media.giphy.com/media/VEQmZ487UX2VGqyiW7/giphy.gif)
 
 
 No final, ainda deu pra usar essa imagem no zoom, pelo <a href="https://obsproject.com">OBS Virtual Camera</a>, e identificar ao vivo os sinais em uma reunião. 🤝
