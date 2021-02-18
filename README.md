@@ -15,11 +15,12 @@ O HandPose me ajudou a identificar o que é uma mão, o que são dedos e onde es
 Depois, eu treinei minha própria rede neural para identificar posições de dedos e mãos e o que cada uma delas significa.
 
 ![Alt Text](https://media.giphy.com/media/VEQmZ487UX2VGqyiW7/giphy.gif)
+![Alt Text](https://media.giphy.com/media/vTO5ieTKZ2KVEkKL5w/giphy.gif)
 
 
 No final, ainda deu pra usar essa imagem no zoom, pelo <a href="https://obsproject.com">OBS Virtual Camera</a>, e identificar ao vivo os sinais em uma reunião. 🤝
 
-![Alt Text](https://media.giphy.com/media/vTO5ieTKZ2KVEkKL5w/giphy.gif)
+
 
 
 ### Tecnologias
