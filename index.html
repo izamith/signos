@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--obrigada pelo interesse nesse projeto!
+veja outros trabalhos em @piscinadepixel-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -15,7 +17,7 @@
             background-repeat: no-repeat;
           }
           #window {
-            width: 80%;
+            max-width: 80%;
             border-radius: 10px;
             margin: auto;
             margin-top: 5%;
@@ -24,12 +26,42 @@
           }
           .header {
             border-bottom: 3px solid #3E4584;
-            padding-bottom: 40px ;
+            padding-top: 15px;
+            padding-bottom: 15px ;
             margin-bottom: 20px;
+            text-align: left;
+            padding-left: 30px;
           }
-          .content {
-            padding: 30px
 
+          .dot {
+            height: 15px;
+            width: 15px;
+            border: 3px solid #3E4584;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+          }
+
+          .content {
+            padding: 30px;
+            display: flex;
+            max-width: 100%;
+
+          }
+         
+
+          #defaultCanvas0 {
+            border-radius: 10px;
+            border: 3px solid #3E4584;
+            box-shadow: none !important;
+            padding: 0;
+          }
+
+          #text {
+            max-width: 50%;
+            padding-left: 5%;
+            padding-top: 7%;
+            padding-right: 10%;
           }
 
         </style>
@@ -38,9 +70,20 @@
       </head>
       <body>
         <div id="window">
-          <div class="header"></div>
+          <div class="header">
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
           <div class="content">
             <span id="cam"></span>
+            <span id="text">
+              <img class="logo" src="assets/Framelogo.png" width="250px">
+              <p class="description">Uma explicação rápida do que é isso aqui.</p>
+                <p class="description">
+                  Como funciona pipipi 
+                  popopo.
+                  Fiz com javascript, legal né?</p>
+            </span>
           </div>
         </div>
       </body>

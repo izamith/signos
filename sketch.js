@@ -104,18 +104,19 @@ function draw() {
   pop()
 
   push()
-  fill(4,15,6);
-  rect(0,430,width,50)
+  fill(145,156,252);
+  noStroke()
+  rect(0,430,width,50,0,0,7,7)
   pop()
 
   push()
   // texto - sinal identificado
-  fill(236,89,55);
+  fill(255,255,255);
   noStroke();
-  textSize(40);
+  textSize(20);
   textAlign(CENTER, CENTER);
  // textFont(font);
-  text(signLabel, width/2, height-32);
+  text(signLabel, width/2, height-23);
   pop()
 };
 /* ELIPSES */
