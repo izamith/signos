@@ -4,11 +4,13 @@
 </p>
 <p align="center">"Libras é a sigla da Língua Brasileira de Sinais, uma língua de modalidade gestual-visual onde é possível se comunicar através de gestos, expressões faciais e corporais. É considerada uma língua oficial do Brasil desde 24 de Abril de 2002." <i>(<a href="https://libras.com">Libras.com</a>)</i></p>
 
-Esse é um projeto com a ml5: biblioteca de machine learning que te permite criar uma rede neural e treinar essa rede direto no navegador! 🌐
+signos é um projeto com a ml5: biblioteca de machine learning que te permite criar uma rede neural e treinar essa rede direto no navegador! 🌐
 
 A ml5 tem vários modelos pré-treinados como um classificador de imagens, poses de um corpo e posições de mãos e dedos. Pra fazer esse projeto eu usei o terceiro, que se chama HandPose. 🙋‍♀️
 
 O HandPose me ajudou a identificar o que é uma mão, o que são dedos e onde estão esses elementos no vídeo. 
+
+
 
 ![Alt Text](https://media.giphy.com/media/UiWilQulmHXeLcnWhT/giphy.gif)</br></br>
 
@@ -22,6 +24,7 @@ No final, ainda deu pra usar essa imagem no zoom, pelo <a href="https://obsproje
 
 ![Alt Text](https://media.giphy.com/media/vTO5ieTKZ2KVEkKL5w/giphy.gif)
 
+<a href="https://izamith.github.io/signos/">acesse a demonstração do signos!</a></br></br></br></br>
 
 ### Tecnologias
 * <a href="https://ml5js.org">ml5.js</a>
