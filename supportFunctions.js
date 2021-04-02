@@ -148,3 +148,7 @@ function loaded() {
   console.log('Modelo Carregado!');
   neuralNet.save();
 };
+
+function toggleSigns() {
+  document.getElementById('signs').style.display="none"
+}
