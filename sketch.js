@@ -12,6 +12,7 @@
 ELEMENTOS DO CANVAS E SETUP
 */
 /* VARIÁVEIS GLOBAIS */
+let canvas
 // rede neural ml5
 let neuralNet;
 // vídeo espelhado
@@ -26,11 +27,12 @@ let signLabel = ""
 let font
 /* SETUP DO PROJETO */
 function preload() {
-  font = loadFont("style/AdventPro.ttf")
+ // font = loadFont("style/AdventPro.ttf")
 };
 function setup() {
   // canvas
-  createCanvas(640, 480);
+  canvas = createCanvas(640, 480);
+  canvas.parent('cam')
   // captura de vídeo via webcam
   video = createCapture(VIDEO);
   // vídeo corresponde ao tamanho do canvas
@@ -112,7 +114,7 @@ function draw() {
   noStroke();
   textSize(40);
   textAlign(CENTER, CENTER);
-  textFont(font);
+ // textFont(font);
   text(signLabel, width/2, height-32);
   pop()
 };
