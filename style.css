@@ -75,7 +75,12 @@ body {
       display: none;
       position: absolute;
       right: 15%;
-      top: 50%
+      top: 50%;
+  }
+
+  .winPop {
+    border: 3px solid #3E4584;
+    border-radius: 5px;
   }
 
 #oi, #duvida, #entendi  {
