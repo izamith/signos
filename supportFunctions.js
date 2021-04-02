@@ -149,6 +149,14 @@ function loaded() {
   neuralNet.save();
 };
 
+var t = 0
 function toggleSigns() {
+  if (t==0) {
+    document.getElementById('signs').style.display="block"
+    t=1
+  }
+ else if (t==1) {
   document.getElementById('signs').style.display="none"
+  t=0
+ }
 }

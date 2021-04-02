@@ -2,6 +2,7 @@ body {
     background-image: url('assets/bg.png');
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;;
+    color: #1D1D1B;
   }
   
   #window {
@@ -12,6 +13,7 @@ body {
     background-color: #7D88EB;
     box-shadow: 10px 10px #3E4584;
   }
+  
   .header {
     border-bottom: 3px solid #3E4584;
     padding-top: 15px;
@@ -30,24 +32,23 @@ body {
     margin-right: 5px;
   }
 
-  .bullet {
-      height: 5px;
-      width: 5px;
-      margin-top: 10px;
-      background: #3E4584;
+  .description {
+    margin-bottom: 30px;
+
   }
+ .signsBox {
+    margin-top: 15px;
+ }
 
   #toggle {
-    font-weight: 400;
-    cursor: pointer;
-    color:rgb(255, 252, 248);
+    color:  #3E4584;
+
   }
 
   #signs {
-    padding: 3%;
     margin-top: 3%;
-    background:darkslateblue;
-  }
+    cursor: pointer;
+}
 
   .content {
     padding: 30px;
@@ -66,6 +67,34 @@ body {
     max-width: 50%;
     padding-left: 5%;
     padding-top: 1%;
-    padding-right: 10%;
+    padding-right: 13%;
     font-size: 15px;
   }
+
+  .vid {
+      display: none;
+      position: absolute;
+      right: 15%;
+      top: 50%
+  }
+
+#oi, #duvida, #entendi  {
+    background: #919CFC;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+  #oi:hover + #sinalOi, #duvida:hover + #sinalDuvida, #entendi:hover + #sinalEntendi  {
+    display: block;
+  }
+
+  #footer {
+margin-top: 50%  }
+  
+  .label {
+    background: #000;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: px;
+}
