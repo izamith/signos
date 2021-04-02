@@ -32,12 +32,11 @@ body {
     margin-right: 5px;
   }
 
-  .description {
-    margin-bottom: 30px;
-
-  }
+  
  .signsBox {
     margin-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
  }
 
   #toggle {
@@ -64,18 +63,23 @@ body {
   }
 
   #text {
-    max-width: 50%;
-    padding-left: 5%;
-    padding-top: 1%;
-    padding-right: 13%;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
     font-size: 15px;
   }
 
+  .description {
+    margin-bottom: 20px;
+    padding: 10%;
+    text-align: left;
+  }
   .vid {
       display: none;
       position: absolute;
-      right: 15%;
-      top: 50%;
+      right: 30%;
+      top: 55%;
   }
 
   .winPop {
@@ -95,11 +99,8 @@ body {
   }
 
   #footer {
-margin-top: 50%  }
+margin-top: 10%  }
   
   .label {
-    background: #000;
-    color: aliceblue;
-    border-radius: 5px;
-    padding: px;
+    color:#919CFC;
 }
