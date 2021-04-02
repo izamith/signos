@@ -1,11 +1,13 @@
 body {
     background-image: url('assets/bg.png');
-    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;;
     color: #1D1D1B;
   }
-  
-  #window {
+  #warning {
+      display: none;
+  }
+
+  .window {
     max-width: 80%;
     border-radius: 10px;
     margin: auto;
@@ -34,7 +36,7 @@ body {
 
   
  .signsBox {
-    margin-top: 15px;
+    margin-top: 7px;
     padding-left: 10%;
     padding-right: 10%;
  }
@@ -45,7 +47,7 @@ body {
   }
 
   #signs {
-    margin-top: 3%;
+    margin-top: 1%;
     cursor: pointer;
 }
 
@@ -67,13 +69,14 @@ body {
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 3%;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .description {
     margin-bottom: 20px;
     padding: 10%;
     text-align: left;
+    color: #494946
   }
   .vid {
       display: none;
@@ -104,3 +107,18 @@ margin-top: 10%  }
   .label {
     color:#919CFC;
 }
+
+@media only screen and (max-width: 1200px) {
+    .window {
+      display: none;
+    }
+    #warning {
+        display: block;
+        max-width: 80%;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 5%;
+        background-color: #7D88EB;
+        box-shadow: 10px 10px #3E4584;
+    }
+  }
