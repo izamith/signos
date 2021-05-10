@@ -29,6 +29,7 @@ function handReady() {
 };
 
 // input do usuário para começar a coleta e salvar o json com os dados
+/*
 function keyPressed() {
     // salvar dados de treinamento coletados
     if (key == "s") {
@@ -53,6 +54,7 @@ function keyPressed() {
         );
     };
 };
+*/
 
 // pegar os dados dos pontos do vídeo
 function gatherData() {
